@@ -26,6 +26,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+hatchproject = "hatchproject.cli:main"
+
 [project.urls]
 Documentation = "https://github.com/Adrian Carauleanu/hatchproject#readme"
 Issues = "https://github.com/Adrian Carauleanu/hatchproject/issues"
