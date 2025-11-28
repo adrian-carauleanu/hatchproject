@@ -37,6 +37,9 @@ Source = "https://github.com/Adrian Carauleanu/hatchproject"
 [tool.hatch.version]
 path = "src/hatchproject/__about__.py"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/hatchproject"]
+
 [tool.hatch.envs.types]
 extra-dependencies = [
   "mypy>=1.0.0",
